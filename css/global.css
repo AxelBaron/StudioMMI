@@ -45,5 +45,8 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+footer {
+  background-color: red; }
+
 body {
-  color: red; }
+  color: blue; }
