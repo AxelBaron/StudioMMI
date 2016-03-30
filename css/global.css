@@ -57,5 +57,9 @@ footer {
   footer p {
     align-self: flex-end; }
 
+#contact {
+  height: 200px;
+  background-color: red; }
+
 body {
   color: blue; }

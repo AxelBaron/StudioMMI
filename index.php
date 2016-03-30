@@ -9,7 +9,9 @@
 
 
 
+  <section id='contact'>
 
+  </section>
   <footer>
     <div>
       <img src="img/iut.jpg" alt="iut">
