@@ -10,8 +10,26 @@
 
 
   <section id='contact'>
-
+    <article>
+      <form>
+        <input type="text" name="nom" value="">
+        <input type="text" name="prenom" value="">
+        <input type="text" name="societe" value="">
+        <input type="text" name="message" value="">
+        <input type="submit" name="name" value="Envoyer">
+      </form>
+      <div>
+        <h2>Studio MMI</h2>
+        <p>
+          9 rue de Québec<br />
+          10430 Rosières-près-Troyes <br />
+          contact@studio3412.fr<br />
+          0345768712
+        </p>
+      </div>
+    </article>
   </section>
+
   <footer>
     <div>
       <img src="img/iut.jpg" alt="iut">
