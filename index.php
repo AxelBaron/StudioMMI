@@ -16,7 +16,7 @@
       <img src="img/" alt="canal32">
       <img src="img/" alt="tpz">
     </div>
-    <p><a href='troyespointzero.fr'>© Troyes Point Zero</a> - Tout droits réservés.</p>
+    <p><a href="troyespointzero.fr">© Troyes Point Zero</a> - Tout droits réservés.</p>
   </footer>
 </body>
 </html>
