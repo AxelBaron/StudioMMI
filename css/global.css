@@ -46,7 +46,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block; }
 
 footer {
-  background-color: red; }
+  background-color: red;
+  text-align: center;
+  height: 300px; }
+  footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%; }
+  footer p {
+    align-self: flex-end; }
 
 body {
   color: blue; }
