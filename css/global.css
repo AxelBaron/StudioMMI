@@ -59,7 +59,11 @@ footer {
 
 #contact {
   height: 200px;
-  background-color: red; }
+  background-color: blue; }
 
 body {
   color: blue; }
+
+article {
+  width: 960;
+  margin: auto; }
