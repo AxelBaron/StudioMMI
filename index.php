@@ -12,10 +12,11 @@
   <section id='contact'>
     <article>
       <form>
-        <input type="text" name="nom" value="">
-        <input type="text" name="prenom" value="">
-        <input type="text" name="societe" value="">
-        <input type="text" name="message" value="">
+        <input type="text" placeholder="Nom" name="nom" value="">
+        <input type="text" placeholder="Prenom" name="prenom" value="">
+        <input type="text" placeholder="Societe" name="societe" value="">
+        <input type="text" placeholder="Mail" name="mail" value="">
+        <textarea placeholder="message" name="message" value=""></textarea>
         <input type="submit" name="name" value="Envoyer">
       </form>
       <div>

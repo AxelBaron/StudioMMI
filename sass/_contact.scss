@@ -1,5 +1,4 @@
 #contact{
-  height: 200px;
   background-color: blue;
 
   article{
@@ -8,6 +7,27 @@
     form{
       width: 50%;
       background-color: yellow;
+
+      input{
+        padding: 10px;
+        width: 170px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+
+      textarea{
+        width: 397px;
+        margin-left: 10px;
+        min-height: 200px;
+        resize:vertical;
+      }
+
+      input[type=submit]{
+        width: 404px;
+        background-color: $vert;
+        color: white;
+        border: none;
+      }
     }
 
     div{
@@ -19,6 +39,11 @@
         text-transform: uppercase;
         padding-bottom: 30px;
         border-bottom: 1px solid $vert;
+      }
+
+      p{
+        margin-top: 25px;
+        line-height: 20px;
       }
     }
   }
