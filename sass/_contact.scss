@@ -1,4 +1,18 @@
 #contact{
   height: 200px;
   background-color: blue;
+
+  article{
+    display: flex;
+
+    form{
+      width: 50%;
+      background-color: yellow;
+    }
+
+    div{
+      width: 50%;
+      background-color: green;
+    }
+  }
 }

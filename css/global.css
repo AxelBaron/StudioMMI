@@ -60,10 +60,18 @@ footer {
 #contact {
   height: 200px;
   background-color: blue; }
+  #contact article {
+    display: flex; }
+    #contact article form {
+      width: 50%;
+      background-color: yellow; }
+    #contact article div {
+      width: 50%;
+      background-color: green; }
 
 body {
   color: blue; }
 
 article {
-  width: 960;
+  width: 960px;
   margin: auto; }
