@@ -13,6 +13,13 @@
     div{
       width: 50%;
       background-color: green;
+      text-align: right;
+
+      h2{
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        border-bottom: 1px solid $vert;
+      }
     }
   }
 }

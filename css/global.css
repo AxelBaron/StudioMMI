@@ -67,7 +67,12 @@ footer {
       background-color: yellow; }
     #contact article div {
       width: 50%;
-      background-color: green; }
+      background-color: green;
+      text-align: right; }
+      #contact article div h2 {
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #2c9686; }
 
 body {
   color: blue; }
