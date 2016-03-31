@@ -45,6 +45,25 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+#header {
+  background-color: cyan;
+  height: 640px; }
+  #header article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+    width: 100%;
+    height: 100%; }
+    #header article .LogoMMI {
+      width: 360px;
+      padding-top: 180px; }
+    #header article .ScrollDown {
+      width: 60px;
+      padding-bottom: 10px; }
+
 footer {
   background-color: red;
   text-align: center;
