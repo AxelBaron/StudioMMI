@@ -8,6 +8,14 @@
 <body>
 
 
+  <section id='presentation'>
+    <article>
+      <h2>Studio mmi c'est quoi ?</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat odio nec turpis ullamcorper finibus. Sed mollis est vel diam tincidunt, at aliquet magna efficitur. Quisque aliquet porttitor magna, sed tristique purus vestibulum eget. Praesent ut mattis tellus. Ut quis tempus velit. Duis vel tincidunt orci. Aenean vitae porta nunc. Nam lobortis et risus sit amet mollis. Duis suscipit tempus augue, sit amet congue metus dapibus vel. Aenean dui magna, dictum a iaculis in, auctor ac lacus. Praesent lobortis placerat lorem, sit amet vehicula nisi egestas et. Suspendisse auctor nisl in euismod commodo. Integer rutrum magna sit amet dignissim cursus. Morbi ac mi vitae arcu eleifend rhoncus vitae eu magna.
+      </p>
+    </article>
+  </section>
 
   <section id='contact'>
     <article>

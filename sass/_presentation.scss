@@ -1,0 +1,15 @@
+#presentation{
+  height: 400px;
+  background-color: white;
+  display: flex;
+  h2{
+    text-transform: uppercase;
+    text-align: right;
+    color: $vert;
+    margin-bottom: 70px;
+  }
+
+  p{
+    line-height: 20px;
+  }
+}

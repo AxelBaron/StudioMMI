@@ -45,17 +45,17 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
-footer {
-  background-color: red;
-  text-align: center;
-  height: 300px; }
-  footer div {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%; }
-  footer p {
-    align-self: flex-end; }
+#presentation {
+  height: 400px;
+  background-color: white;
+  display: flex; }
+  #presentation h2 {
+    text-transform: uppercase;
+    text-align: right;
+    color: #2c9686;
+    margin-bottom: 70px; }
+  #presentation p {
+    line-height: 20px; }
 
 #contact {
   background-color: blue; }
@@ -90,6 +90,18 @@ footer {
       #contact article div p {
         margin-top: 25px;
         line-height: 20px; }
+
+footer {
+  background-color: red;
+  text-align: center;
+  height: 300px; }
+  footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%; }
+  footer p {
+    align-self: flex-end; }
 
 body {
   color: blue; }
