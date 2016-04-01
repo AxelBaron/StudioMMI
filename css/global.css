@@ -76,26 +76,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   #presentation p {
     line-height: 20px; }
 
-#materiel {
-  background-color: white;
-  height: 300px;
-  display: flex;
-  text-align: center;
-  border-top: 6px solid #5be62f; }
-  #materiel p {
-    display: flex;
-    justify-content: space-around; }
-  #materiel h2 {
-    text-transform: uppercase;
-    margin-top: 20px; }
-    #materiel h2 a {
-      color: #5be62f;
-      text-decoration: none;
-      font-size: 30px;
-      transition: font-size 0.5s; }
-      #materiel h2 a:hover {
-        font-size: 32px; }
-
 #contact {
   background-color: blue; }
   #contact article {
