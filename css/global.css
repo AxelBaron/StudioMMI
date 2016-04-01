@@ -87,7 +87,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     justify-content: space-around; }
   #materiel h2 {
     text-transform: uppercase;
-    color: #5be62f; }
+    margin-top: 20px; }
+    #materiel h2 a {
+      color: #5be62f;
+      text-decoration: none;
+      font-size: 30px;
+      transition: font-size 0.5s; }
+      #materiel h2 a:hover {
+        font-size: 32px; }
 
 #contact {
   background-color: blue; }

@@ -12,6 +12,16 @@
 
   h2{
     text-transform: uppercase;
-    color: $vertClair;
+    margin-top: 20px;
+
+    a{
+      color: $vertClair;
+      text-decoration: none;
+      font-size: 30px;
+        transition: font-size 0.5s;
+      &:hover{
+        font-size: 32px;
+      }
+    }
   }
 }

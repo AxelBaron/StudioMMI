@@ -32,7 +32,7 @@
         <img src="img/micro.svg" alt="micro" />
         <img src="img/appareil.svg" alt="appareil photo" />
       </p>
-      <h2>Voir notre matériel</h2>
+      <h2><a href=''>Voir notre matériel</a></h2>
     </article>
   </section>
 
