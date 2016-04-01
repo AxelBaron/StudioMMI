@@ -45,18 +45,6 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
-#presentation {
-  height: 400px;
-  background-color: white;
-  display: flex; }
-  #presentation h2 {
-    text-transform: uppercase;
-    text-align: right;
-    color: #2c9686;
-    margin-bottom: 70px; }
-  #presentation p {
-    line-height: 20px; }
-
 #header {
   background-color: cyan;
   height: 640px; }
@@ -76,17 +64,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
       width: 60px;
       padding-bottom: 10px; }
 
-footer {
-  background-color: red;
+#presentation {
+  height: 400px;
+  background-color: white;
+  display: flex; }
+  #presentation h2 {
+    text-transform: uppercase;
+    text-align: right;
+    color: #2c9686;
+    margin-bottom: 70px; }
+  #presentation p {
+    line-height: 20px; }
+
+#materiel {
+  background-color: white;
+  height: 300px;
+  display: flex;
   text-align: center;
-  height: 300px; }
-  footer div {
+  border-top: 6px solid #5be62f; }
+  #materiel p {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%; }
-  footer p {
-    align-self: flex-end; }
+    justify-content: space-around; }
+  #materiel h2 {
+    text-transform: uppercase;
+    color: #5be62f; }
 
 #contact {
   background-color: blue; }

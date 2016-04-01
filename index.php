@@ -24,7 +24,18 @@
       </p>
     </article>
   </section>
-  
+
+  <section id='materiel'>
+    <article>
+      <p>
+        <img src="img/camera.svg" alt="camera" />
+        <img src="img/micro.svg" alt="micro" />
+        <img src="img/appareil.svg" alt="appareil photo" />
+      </p>
+      <h2>Voir notre matériel</h2>
+    </article>
+  </section>
+
 	<section id='contact'>
 		<article>
 			<form>
