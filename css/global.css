@@ -45,6 +45,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+<<<<<<< HEAD
 #presentation {
   height: 400px;
   background-color: white;
@@ -56,6 +57,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-bottom: 70px; }
   #presentation p {
     line-height: 20px; }
+=======
+#header {
+  background-color: cyan;
+  height: 640px; }
+  #header article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+    width: 100%;
+    height: 100%; }
+    #header article .LogoMMI {
+      width: 360px;
+      padding-top: 180px; }
+    #header article .ScrollDown {
+      width: 60px;
+      padding-bottom: 10px; }
+
+footer {
+  background-color: red;
+  text-align: center;
+  height: 300px; }
+  footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%; }
+  footer p {
+    align-self: flex-end; }
+>>>>>>> origin/master
 
 #contact {
   background-color: blue; }
