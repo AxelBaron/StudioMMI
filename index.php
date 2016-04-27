@@ -25,7 +25,10 @@
 					<li><a href="#" title="Studio">Studio</a></li>
 					<li><a href="#" title="Matériel">Matériel</a></li>
 					<li><a href="#" title="Contact">Contact</a></li>
-					<li class="picto"><img src="img/connexion.svg" alt="pictogramme connexion"><a href="#" title="Connexion">Connexion</a></li>
+					<li class="picto">
+						<img src="img/connexion.svg" alt="pictogramme connexion">
+						<a href="#" title="Connexion">Connexion</a>
+					</li>
 				</ul>
 			</nav>
 		</article>
