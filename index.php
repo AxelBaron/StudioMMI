@@ -15,7 +15,21 @@
 			<img class="ScrollDown" src="img/scroll-down.png" alt="Défilez vers le bas">
 		</article>
 	</section>
-
+	<section id="menu">
+		<article class="img">
+			<img src="img/logo-vert.svg" alt="Logo Studio MMI">
+		</article>	
+		<article class="menu">
+			<nav>
+				<ul>
+					<li><a href="#" title="Studio">Studio</a></li>
+					<li><a href="#" title="Matériel">Matériel</a></li>
+					<li><a href="#" title="Contact">Contact</a></li>
+					<li class="picto"><img src="img/connexion.svg" alt="pictogramme connexion"><a href="#" title="Connexion">Connexion</a></li>
+				</ul>
+			</nav>
+		</article>
+	</section>
   <section id='presentation'>
     <article>
       <h2>Studio mmi c'est quoi ?</h2>

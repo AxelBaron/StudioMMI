@@ -1,0 +1,32 @@
+#menu{
+	height: 100px;
+	background-color: $gris;
+	text-transform: uppercase;
+	color: $typo;
+	display: flex;
+	align-items: center;
+	a{
+		text-decoration: none;
+	}
+	.picto{
+		img{
+			max-height: 12px;
+			padding-right: 10px;
+		}
+	}
+	.img{
+		display: flex;
+		margin-left: 60px;
+		width: 600px;
+	}
+	.menu{
+		nav{	
+			ul{
+				margin-right: 60px;
+				display: flex;
+				flex-direction: row;	
+				justify-content: space-between;
+			}	
+		}
+	}
+}

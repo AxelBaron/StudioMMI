@@ -64,6 +64,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
       width: 60px;
       padding-bottom: 10px; }
 
+#menu {
+  height: 100px;
+  background-color: #cccccc;
+  text-transform: uppercase;
+  color: #272b29;
+  display: flex;
+  align-items: center; }
+  #menu a {
+    text-decoration: none; }
+  #menu .picto img {
+    max-height: 12px;
+    padding-right: 10px; }
+  #menu .img {
+    display: flex;
+    margin-left: 60px;
+    width: 600px; }
+  #menu .menu nav ul {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
 #presentation {
   height: 400px;
   background-color: white;
