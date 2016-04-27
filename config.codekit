@@ -113,6 +113,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/materielBackground.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 296488,
+		"inputAbbreviatedPath": "\/img\/materielBackground.jpg",
+		"outputAbbreviatedPath": "\/img\/materielBackground.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/scroll-down.png": {
 		"fileType": 32768,
 		"ignore": 0,

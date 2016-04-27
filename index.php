@@ -39,6 +39,42 @@
     </article>
   </section>
 
+	<section id='materiel'>
+		<article>
+			<div class="containerAppercuMateriel">
+				<div class="appercuMateriel">
+					<div class="image">
+						<img src="" alt="" />
+					</div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat odio nec turpis ullamcorper finibus.
+					</p>
+				</div>
+
+				<div class="appercuMateriel">
+					<div class="image">
+						<img src="" alt="" />
+					</div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat odio nec turpis ullamcorper finibus.
+					</p>
+				</div>
+
+				<div class="appercuMateriel">
+					<div class="image">
+						<img src="" alt="" />
+					</div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat odio nec turpis ullamcorper finibus.
+					</p>
+				</div>
+			</div>
+			<p class="btn">
+				<button type="button" name="button">Voir notre matériel</button>
+			</p>
+		</article>
+	</section>
+
 
 	<section id='contact'>
 		<article>

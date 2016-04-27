@@ -98,6 +98,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   #presentation p {
     line-height: 20px; }
 
+#materiel {
+  height: 565px;
+  background: url("../img/materielBackground.jpg");
+  background-size: cover; }
+  #materiel article {
+    height: 100%; }
+  #materiel .containerAppercuMateriel {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.8; }
+    #materiel .containerAppercuMateriel .appercuMateriel {
+      width: 200px;
+      background-color: #367269; }
+      #materiel .containerAppercuMateriel .appercuMateriel .image {
+        width: 125px;
+        height: 125px;
+        background-color: red;
+        transform: rotate(45deg);
+        margin-left: 40px; }
+  #materiel .btn {
+    position: relative;
+    top: -110px;
+    width: 100%;
+    text-align: center;
+    flex: none; }
+    #materiel .btn button {
+      cursor: pointer; }
+
 #contact {
   background-color: blue; }
   #contact article {

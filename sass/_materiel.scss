@@ -1,0 +1,39 @@
+#materiel{
+  height: 565px;
+  background: url('../img/materielBackground.jpg');
+  background-size: cover;
+
+  article{
+    height: 100%;
+  }
+  .containerAppercuMateriel{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.8;
+
+    .appercuMateriel{
+      .image{
+        width: 125px;
+        height: 125px;
+        background-color: red;
+        transform: rotate(45deg);
+        margin-left: 40px;
+      }
+      width: 200px;
+      background-color: #367269;
+    }
+  }
+
+  .btn{
+    position: relative;
+    top:-110px;
+    width: 100%;
+    text-align: center;
+    flex: none;
+    button{
+      cursor: pointer;
+    }
+  }
+}
