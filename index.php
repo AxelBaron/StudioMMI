@@ -18,7 +18,7 @@
 	<section id="menu">
 		<article class="img">
 			<img src="img/logo-vert.svg" alt="Logo Studio MMI">
-		</article>	
+		</article>
 		<article class="menu">
 			<nav>
 				<ul>
@@ -47,7 +47,7 @@
 			<div class="containerAppercuMateriel">
 				<div class="appercuMateriel">
 					<div class="image">
-						<img src="" alt="" />
+						<img id="mat1" src="img/iso-blanc.svg" alt="" />
 					</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat odio nec turpis ullamcorper finibus.
@@ -56,7 +56,7 @@
 
 				<div class="appercuMateriel">
 					<div class="image">
-						<img src="" alt="" />
+						<img id="mat2" src="img/appareil.svg" alt="" />
 					</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat odio nec turpis ullamcorper finibus.
@@ -65,7 +65,7 @@
 
 				<div class="appercuMateriel">
 					<div class="image">
-						<img src="" alt="" />
+						<img id="mat3" src="img/micro-blanc.svg" alt="" />
 					</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat odio nec turpis ullamcorper finibus.

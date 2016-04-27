@@ -104,29 +104,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover; }
   #materiel article {
     height: 100%; }
-  #materiel .containerAppercuMateriel {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    opacity: 0.8; }
-    #materiel .containerAppercuMateriel .appercuMateriel {
-      width: 200px;
-      background-color: #367269; }
-      #materiel .containerAppercuMateriel .appercuMateriel .image {
-        width: 125px;
-        height: 125px;
-        background-color: red;
-        transform: rotate(45deg);
-        margin-left: 40px; }
-  #materiel .btn {
-    position: relative;
-    top: -110px;
-    width: 100%;
-    text-align: center;
-    flex: none; }
-    #materiel .btn button {
-      cursor: pointer; }
+    #materiel article .containerAppercuMateriel {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      opacity: 0.8; }
+      #materiel article .containerAppercuMateriel .appercuMateriel {
+        width: 200px;
+        background-color: #367269; }
+        #materiel article .containerAppercuMateriel .appercuMateriel .image {
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          transform: rotate(45deg);
+          margin-left: 50px;
+          margin-top: -50px;
+          border: 1px solid white; }
+          #materiel article .containerAppercuMateriel .appercuMateriel .image img {
+            transform: rotate(-45deg);
+            position: relative; }
+          #materiel article .containerAppercuMateriel .appercuMateriel .image #mat1 {
+            margin-left: 18px;
+            margin-top: 26px; }
+          #materiel article .containerAppercuMateriel .appercuMateriel .image #mat2 {
+            margin-left: 18px;
+            margin-top: 24px; }
+          #materiel article .containerAppercuMateriel .appercuMateriel .image #mat3 {
+            margin-left: 15px;
+            margin-top: 28px; }
+        #materiel article .containerAppercuMateriel .appercuMateriel p {
+          padding: 10px;
+          margin-top: 20px; }
+    #materiel article .btn {
+      text-transform: uppercase;
+      position: relative;
+      top: -110px;
+      width: 100%;
+      text-align: center;
+      flex: none; }
+      #materiel article .btn button {
+        padding: 10px;
+        cursor: pointer; }
 
 #contact {
   background-color: blue; }
@@ -175,7 +194,7 @@ footer {
     align-self: flex-end; }
 
 body {
-  color: blue; }
+  color: black; }
 
 article {
   width: 960px;
