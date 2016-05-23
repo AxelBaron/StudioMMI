@@ -5,35 +5,68 @@
 
   article{
     height: 100%;
-  }
-  .containerAppercuMateriel{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    opacity: 0.8;
 
-    .appercuMateriel{
-      .image{
-        width: 125px;
-        height: 125px;
-        background-color: red;
-        transform: rotate(45deg);
-        margin-left: 40px;
+    .containerAppercuMateriel{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      opacity: 0.8;
+
+      .appercuMateriel{
+        width: 200px;
+        background-color: #367269;
+
+        .image{
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          transform: rotate(45deg);
+          margin-left: 50px;
+          margin-top: -50px;
+          border: 1px solid white;
+
+          img{
+            transform: rotate(-45deg);
+            position: relative;
+          }
+
+          #mat1{
+            margin-left: 18px;
+            margin-top: 26px;
+          }
+
+          #mat2{
+            margin-left: 18px;
+            margin-top: 24px;
+          }
+
+          #mat3{
+            margin-left: 15px;
+            margin-top: 28px;
+          }
+        }
+
+        p{
+          padding: 10px;
+          margin-top: 20px;
+        }
       }
-      width: 200px;
-      background-color: #367269;
+    }
+
+    .btn{
+      text-transform: uppercase;
+      position: relative;
+      top:-110px;
+      width: 100%;
+      text-align: center;
+      flex: none;
+
+      button{
+        padding: 10px;
+        cursor: pointer;
+      }
     }
   }
 
-  .btn{
-    position: relative;
-    top:-110px;
-    width: 100%;
-    text-align: center;
-    flex: none;
-    button{
-      cursor: pointer;
-    }
-  }
 }
