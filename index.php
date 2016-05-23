@@ -22,9 +22,9 @@
 		<article class="menu">
 			<nav>
 				<ul>
-					<li><a href="#" title="Studio">Studio</a></li>
-					<li><a href="#" title="Matériel">Matériel</a></li>
-					<li><a href="#" title="Contact">Contact</a></li>
+					<li><a href="#presentation" title="Studio">Studio</a></li>
+					<li><a href="#materiel" title="Matériel">Matériel</a></li>
+					<li><a href="#contact" title="Contact">Contact</a></li>
 					<li class="picto">
 						<img src="img/connexion.svg" alt="pictogramme connexion">
 						<a href="#" title="Connexion">Connexion</a>
@@ -73,7 +73,7 @@
 				</div>
 			</div>
 			<p class="btn">
-				<button type="button" name="button">Voir notre matériel</button>
+            <button type="button" name="button"><a href="materiel.php">Voir notre matériel</a></button>
 			</p>
 		</article>
 	</section>
@@ -101,13 +101,13 @@
 		</article>
 	</section>
 
-	<footer>
+	<footer id="footer-index">
 		<div>
 			<img src="img/iut.jpg" alt="iut">
 			<img src="img/canal32.jpeg" alt="canal32">
 			<img src="img/tpz.png" alt="tpz">
 		</div>
-		<p><a href="troyespointzero.fr">© Troyes Point Zero</a> - Tout droits réservés.</p>
+		<p><a href="www.troyespointzero.fr" target="_blank">© Troyes Point Zero</a> - Tout droits réservés.</p>
 	</footer>
 </body>
 

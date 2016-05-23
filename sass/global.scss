@@ -17,10 +17,14 @@ $typo : #272b29;
 @import "materiel";
 @import "contact";
 @import "footer";
+@import "liste-materiel";
 
 
 body{
   color:blue;
+  display: flex;
+  flex-direction: column; //Sticky footer
+  min-height: 100vh;      //Sticky footer
 }
 
 article{

@@ -1,4 +1,4 @@
-footer{
+#footer-index{
   background-color: red;
   text-align: center;
   height: 300px;
@@ -14,4 +14,14 @@ footer{
   p{
     align-self: flex-end;
   }
+}
+
+#footer-commun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto; //sticky footer
+    background-color: $gris;
+    height: 18px;
+    font-size: 14px;
 }
