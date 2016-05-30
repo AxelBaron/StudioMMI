@@ -5,6 +5,7 @@
 	color: $typo;
 	display: flex;
 	align-items: center;
+	font-family:'BebasNeue', Arial;
 	a{
 		text-decoration: none;
 	}
@@ -20,13 +21,18 @@
 		width: 600px;
 	}
 	.menu{
-		nav{	
+		nav{
 			ul{
 				margin-right: 60px;
 				display: flex;
-				flex-direction: row;	
+				flex-direction: row;
 				justify-content: space-between;
-			}	
+
+				a{
+					color: $typo;
+					font-size: 22px;
+				}
+			}
 		}
 	}
 }

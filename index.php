@@ -14,6 +14,8 @@
 			<img class="LogoMMI" src="img/logo-blanc.svg" alt="Logo Studio MMI">
 			<img class="ScrollDown" src="img/scroll-down.png" alt="Défilez vers le bas">
 		</article>
+		<div class="triangle">
+		</div>
 	</section>
 	<section id="menu">
 		<article class="img">

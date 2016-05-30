@@ -1,0 +1,270 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url('../fonts/BebasNeue.otf?1395714584');
+  src: url('../fonts/BebasNeue.otf?&1395714584#iefix') format('embedded-opentype'), url('../fonts/BebasNeue.otf?1395714584') format('opentype'); }
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url('../fonts/Montserrat-Regular.eot?1442923562');
+  src: url('../fonts/Montserrat-Regular.eot?&1442923562#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Regular.woff?1442923563') format('woff'), url('../fonts/Montserrat-Regular.ttf?1442890784') format('truetype'), url('../fonts/Montserrat-Regular.svg?1442923563') format('svg'); }
+#header {
+  background: url("../img/header.jpg") no-repeat center;
+  background-size: cover;
+  height: 640px; }
+  #header article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+    width: 100%;
+    height: 100%; }
+    #header article .LogoMMI {
+      position: relative;
+      z-index: 1;
+      width: 360px;
+      padding-top: 180px; }
+    #header article .ScrollDown {
+      width: 60px;
+      padding-bottom: 10px; }
+  #header .triangle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 640px solid #367269;
+    border-left: 470px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 352px;
+    opacity: 0.5; }
+
+#menu {
+  height: 100px;
+  background-color: #cccccc;
+  text-transform: uppercase;
+  color: #272b29;
+  display: flex;
+  align-items: center;
+  font-family: 'BebasNeue', Arial; }
+  #menu a {
+    text-decoration: none; }
+  #menu .picto img {
+    max-height: 12px;
+    padding-right: 10px; }
+  #menu .img {
+    display: flex;
+    margin-left: 60px;
+    width: 600px; }
+  #menu .menu nav ul {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    #menu .menu nav ul a {
+      color: #272b29;
+      font-size: 22px; }
+
+#presentation {
+  height: 400px;
+  background-color: white;
+  display: flex; }
+  #presentation h2 {
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 70px;
+    font-size: 34px; }
+  #presentation p {
+    line-height: 20px; }
+
+#materiel {
+  height: 565px;
+  background: url("../img/materielBackground.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  border-top: 6px solid #5be62f;
+  border-bottom: 6px solid #5be62f; }
+  #materiel article {
+    height: 100%; }
+    #materiel article .containerAppercuMateriel {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      opacity: 0.8; }
+      #materiel article .containerAppercuMateriel .appercuMateriel {
+        width: 200px;
+        background-color: #367269; }
+        #materiel article .containerAppercuMateriel .appercuMateriel .image {
+          width: 100px;
+          height: 100px;
+          background-color: #367269;
+          transform: rotate(45deg);
+          margin-left: 50px;
+          margin-top: -50px;
+          border: 1px solid white; }
+          #materiel article .containerAppercuMateriel .appercuMateriel .image img {
+            transform: rotate(-45deg);
+            position: relative; }
+          #materiel article .containerAppercuMateriel .appercuMateriel .image #mat1 {
+            margin-left: 18px;
+            margin-top: 26px; }
+          #materiel article .containerAppercuMateriel .appercuMateriel .image #mat2 {
+            margin-left: 18px;
+            margin-top: 24px; }
+          #materiel article .containerAppercuMateriel .appercuMateriel .image #mat3 {
+            margin-left: 25px;
+            margin-top: 12px; }
+        #materiel article .containerAppercuMateriel .appercuMateriel p {
+          padding: 10px;
+          margin-top: 20px;
+          color: white;
+          text-align: justify; }
+    #materiel article .btn {
+      text-transform: uppercase;
+      position: relative;
+      top: -110px;
+      width: 100%;
+      text-align: center;
+      flex: none; }
+      #materiel article .btn button {
+        padding: 10px;
+        cursor: pointer;
+        font-family: 'BebasNeue';
+        text-transform: uppercase;
+        font-size: 30px; }
+      #materiel article .btn a {
+        color: #2c9686;
+        text-decoration: none; }
+
+#contact {
+  background-color: blue; }
+  #contact article {
+    display: flex; }
+    #contact article form {
+      width: 50%;
+      background-color: yellow; }
+      #contact article form input {
+        padding: 10px;
+        width: 170px;
+        margin-bottom: 10px;
+        margin-left: 10px; }
+      #contact article form textarea {
+        width: 397px;
+        margin-left: 10px;
+        min-height: 200px;
+        resize: vertical; }
+      #contact article form input[type=submit] {
+        width: 404px;
+        background-color: #2c9686;
+        color: white;
+        border: none; }
+    #contact article div {
+      width: 50%;
+      background-color: green;
+      text-align: right; }
+      #contact article div h2 {
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #2c9686; }
+      #contact article div p {
+        margin-top: 25px;
+        line-height: 20px; }
+
+#footer-index {
+  background-color: red;
+  background: url("../img/lamp.jpg") no-repeat center fixed;
+  background-size: cover;
+  text-align: center;
+  height: 300px; }
+  #footer-index div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%; }
+  #footer-index p {
+    align-self: flex-end; }
+
+#footer-commun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  background-color: #cccccc;
+  height: 18px;
+  font-size: 14px; }
+
+#liste-materiel {
+  background-color: #ffffff;
+  text-align: center;
+  color: #272b29;
+  width: 300px;
+  margin: 0 auto; }
+  #liste-materiel h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px 0; }
+  #liste-materiel h4 {
+    font-style: italic;
+    padding: 20px 0; }
+
+body {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Montserrat Regular', Arial; }
+
+article {
+  width: 960px;
+  margin: auto; }
+
+h2 {
+  font-family: 'BebasNeue', Arial;
+  color: #5be62f; }

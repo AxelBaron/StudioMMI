@@ -1,5 +1,6 @@
 #header{
-	background-color: cyan;
+	background: url('../img/header.jpg') no-repeat center;
+	background-size: cover;
 	height: 640px;
 		article{
 		display: flex;
@@ -9,6 +10,8 @@
 		width: 100%;
 		height: 100%;
 		.LogoMMI{
+			position: relative;
+			z-index: 1;
 			width: 360px;
 			padding-top: 180px;
 		}
@@ -16,5 +19,17 @@
 			width: 60px;
 			padding-bottom: 10px;
 		}
+	}
+
+	.triangle{
+		position: absolute;
+		top: 0;
+		right: 0;
+		border-bottom: 640px solid #367269;
+		border-left: 470px solid transparent;
+		border-right: 0px solid transparent;
+		height: 0;
+		width: 352px;
+		opacity: 0.5;
 	}
 }
