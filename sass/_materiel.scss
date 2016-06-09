@@ -75,11 +75,20 @@
         font-family: 'BebasNeue';
         text-transform: uppercase;
         font-size: 30px;
+
+        &:hover{
+          cursor: pointer;
+        }
+
+        &:hover a{
+          color:$vertClair;
+        }
       }
 
       a{
         color: $vert;
         text-decoration: none;
+        transition: color 0.5s;
       }
     }
   }

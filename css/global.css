@@ -124,7 +124,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-bottom: 70px;
     font-size: 34px; }
   #presentation p {
-    line-height: 25px; }
+    line-height: 25px;
+    text-align: justify; }
 
 #materiel {
   height: 565px;
@@ -182,9 +183,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
         font-family: 'BebasNeue';
         text-transform: uppercase;
         font-size: 30px; }
+        #materiel article .btn button:hover {
+          cursor: pointer; }
+        #materiel article .btn button:hover a {
+          color: #5be62f; }
       #materiel article .btn a {
         color: #2c9686;
-        text-decoration: none; }
+        text-decoration: none;
+        transition: color 0.5s; }
 
 #contact {
   background-color: #cccccc; }
