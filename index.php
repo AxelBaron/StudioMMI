@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<title>Studio MMI</title>
 	<link rel="stylesheet" href="css/global.css">
+	<script src='js/jquery-1.12.4.min.js'></script>
+	<script src="js/smoothScroll.js"></script>
 </head>
 
 <body>
@@ -88,7 +90,7 @@
 				<input type="text" placeholder="Prenom" name="prenom" value="">
 				<input type="text" placeholder="Societe" name="societe" value="">
 				<input type="text" placeholder="Mail" name="mail" value="">
-				<textarea placeholder="message" name="message" value=""></textarea>
+				<textarea placeholder="Message" name="message" value=""></textarea>
 				<input type="submit" name="name" value="Envoyer">
 			</form>
 			<div>

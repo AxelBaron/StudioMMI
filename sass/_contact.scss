@@ -1,12 +1,14 @@
 #contact{
-  background-color: blue;
+  background-color: $gris;
 
   article{
     display: flex;
 
     form{
       width: 50%;
-      background-color: yellow;
+      background-color: $gris;
+      margin-top: 30px;
+      margin-bottom: 30px;
 
       input{
         padding: 10px;
@@ -16,34 +18,49 @@
       }
 
       textarea{
-        width: 397px;
+        width: 380px;
         margin-left: 10px;
         min-height: 200px;
         resize:vertical;
+        padding: 10px;
       }
 
       input[type=submit]{
         width: 404px;
-        background-color: $vert;
+        background-color: $vertClair;
+        text-transform: uppercase;
+        margin-top: 10px;
         color: white;
         border: none;
+        transition: background 0.5s;
+
+        &:hover{
+          cursor: pointer;
+          background-color: $vert;
+        }
       }
     }
 
     div{
       width: 50%;
-      background-color: green;
+      background-color: $gris;
       text-align: right;
+      padding-top: 30px;
+      margin-top: 30px;
+
 
       h2{
         text-transform: uppercase;
-        padding-bottom: 30px;
-        border-bottom: 1px solid $vert;
+        padding-bottom: 19px;
+        border-bottom: 3px solid $vertClair;
+        font-size: 45px;
+        color: white;
       }
 
       p{
         margin-top: 25px;
-        line-height: 20px;
+        line-height: 21px;
+        font-size: 14px;
       }
     }
   }
