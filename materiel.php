@@ -34,7 +34,10 @@
 	    <p>Camera Blackmagic 4K</p>
 	    <p>Camera Blackmagic 4K</p>
 	    <p>Camera Blackmagic 4K</p>
-        <h4>Liste non exhaustive, d'autres matériels peuvent être loués sur demande.</h4>
+       <p><h2>faire appel liste matériel</h2></p>
+	</section>
+	<section id="liste-non-exhaustive">
+	    <h4>Liste non exhaustive, d'autres matériels peuvent être loués sur demande.</h4>
 	</section>
 
 	<footer id="footer-commun">

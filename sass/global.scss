@@ -1,8 +1,6 @@
 @import "compass/css3";
 @import "compass/reset";
 
-
-
 // VARIABLES
 $vert : #2c9686;
 $vertClair : #5be62f;
@@ -18,6 +16,7 @@ $typo : #272b29;
 @import "contact";
 @import "footer";
 @import "liste-materiel";
+@import "liste-non-exhaustive";
 
 
 body{

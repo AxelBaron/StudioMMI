@@ -32,10 +32,18 @@
 
 #footer-commun{
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: auto; //sticky footer
-    background-color: $gris;
-    height: 18px;
-    font-size: 14px;
+    font-size: 1em;
+    padding: 15px;
+    a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: color 0.5s;
+
+    &:hover{
+      color: $vertClair;
+    }
+  }
 }
