@@ -6,7 +6,7 @@
  * Time: 09:47
  */
 
-define("DB_HOST", "localhost:8888");
+define("DB_HOST", "localhost:8889");
 define("DB_NAME", "studio");
 define("DB_USER", "root");
 define("DB_PASS", "root");
