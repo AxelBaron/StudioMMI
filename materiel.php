@@ -36,11 +36,12 @@
 	    <p>Camera Blackmagic 4K</p>
        <p><h2>faire appel liste matériel</h2></p>
 	</section>
+	
+
+	<footer id="footer-commun">
 	<section id="liste-non-exhaustive">
 	    <h4>Liste non exhaustive, d'autres matériels peuvent être loués sur demande.</h4>
 	</section>
-
-	<footer id="footer-commun">
 		<p><a href="troyespointzero.fr">© Troyes Point Zero</a> - Tout droits réservés.</p>
 	</footer>
 </body>
