@@ -4,9 +4,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Studio MMI</title>
-	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/global.css" media="screen">
 	<script src='js/jquery-1.12.4.min.js'></script>
 	<script src="js/smoothScroll.js"></script>
+	<script>
+		function menu(){
+			$('#phoneMenu').toggle("slow");
+		}
+	</script>
 </head>
 
 <body>
@@ -24,7 +29,7 @@
 			<img src="img/logo-vert.svg" alt="Logo Studio MMI">
 		</article>
 		<article class="menu">
-			<nav>
+			<nav class='nav computer'>
 				<ul>
 					<li><a href="#presentation" title="Studio">Studio</a></li>
 					<li><a href="#materiel" title="Matériel">Matériel</a></li>
@@ -35,7 +40,21 @@
 					</li>
 				</ul>
 			</nav>
+
+			<nav class='nav phone'>
+				<div id="hamburger" onclick="menu()">x</div>
+				<ul id="phoneMenu">
+					<li><a href="#presentation" title="Studio">Studio</a></li>
+					<li><a href="#materiel" title="Matériel">Matériel</a></li>
+					<li><a href="#contact" title="Contact">Contact</a></li>
+					<li class="picto">
+						<img src="img/connexion.svg" alt="pictogramme connexion">
+						<a href="#" title="Connexion">Connexion</a>
+					</li>
+				</ul>
+			</nav>
 		</article>
+
 	</section>
   <section id='presentation'>
     <article>

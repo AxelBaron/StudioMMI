@@ -21,7 +21,15 @@
 		width: 600px;
 	}
 	.menu{
-		nav{
+		.nav.computer{
+			width: 550px;
+			@media screen and (max-width: 815px) {
+        width: 400px;
+      }
+
+			@media screen and (max-width: 660px) {
+        display: none;
+      }
 			ul{
 				margin-right: 60px;
 				display: flex;
@@ -38,6 +46,23 @@
 					}
 				}
 			}
+		}
+
+		.nav.phone{
+			display: none;
+
+			div{
+				width: 30px;
+				cursor: pointer;
+			}
+
+			ul{
+				display: none;
+			}
+			
+			@media screen and (max-width: 659px) {
+        display: block;
+      }
 		}
 	}
 }

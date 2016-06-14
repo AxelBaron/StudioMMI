@@ -1,7 +1,12 @@
 #presentation{
-  height: 470px;
+  min-height: 470px;
   background-color: white;
   display: flex;
+
+  article{
+    padding: 20px;
+  }
+  
   h2{
     text-transform: uppercase;
     text-align: right;
