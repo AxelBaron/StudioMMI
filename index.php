@@ -9,7 +9,7 @@
 	<script src="js/smoothScroll.js"></script>
 	<script>
 		function menu(){
-			$('#phoneMenu').toggle("slow");
+			$('#phoneMenu').slideToggle("slow");
 		}
 	</script>
 </head>
@@ -40,22 +40,24 @@
 					</li>
 				</ul>
 			</nav>
-
-			<nav class='nav phone'>
-				<div id="hamburger" onclick="menu()">x</div>
-				<ul id="phoneMenu">
+			<div id="hamburger" onclick="menu()"><img src='img/hamburger.png'</div>
+		</article>
+	</section>
+	<section id='phoneMenu'>
+		<article>
+			<nav>
+				<ul>
 					<li><a href="#presentation" title="Studio">Studio</a></li>
 					<li><a href="#materiel" title="Matériel">Matériel</a></li>
 					<li><a href="#contact" title="Contact">Contact</a></li>
 					<li class="picto">
-						<img src="img/connexion.svg" alt="pictogramme connexion">
 						<a href="#" title="Connexion">Connexion</a>
 					</li>
 				</ul>
 			</nav>
 		</article>
-
 	</section>
+
   <section id='presentation'>
     <article>
       <h2>Studio mmi c'est quoi ?</h2>
