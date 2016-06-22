@@ -34,10 +34,6 @@
 					<li><a href="#presentation" title="Studio">Studio</a></li>
 					<li><a href="#materiel" title="Matériel">Matériel</a></li>
 					<li><a href="#contact" title="Contact">Contact</a></li>
-					<li class="picto">
-						<img src="img/connexion.svg" alt="pictogramme connexion">
-						<a href="#" title="Connexion">Connexion</a>
-					</li>
 				</ul>
 			</nav>
 			<div id="hamburger" onclick="menu()"><img src='img/hamburger.png'</div>
@@ -50,9 +46,6 @@
 					<li><a href="#presentation" title="Studio">Studio</a></li>
 					<li><a href="#materiel" title="Matériel">Matériel</a></li>
 					<li><a href="#contact" title="Contact">Contact</a></li>
-					<li class="picto">
-						<a href="#" title="Connexion">Connexion</a>
-					</li>
 				</ul>
 			</nav>
 		</article>
