@@ -11,6 +11,38 @@
 		function menu(){
 			$('#phoneMenu').slideToggle("slow");
 		}
+
+		function sendMail(){
+			console.log('test');
+			var nom = $('#nom').val();
+			var prenom = $('#prenom').val();
+			var email = $('#email').val();
+			var societe = $('#societe').val();
+			var message = $('#message').val();
+
+			if (nom =='' || prenom =='' || email =='' || message =='') {
+				alert('Les renseignements nom, prénom et email sont obligatoires.')
+			}else{
+				$.ajax({
+					url : 'sendMail.php',
+					type : 'POST',
+					dataType:"html",
+					data: { nom:nom, prenom:prenom, email:email, societe:societe, message:message},
+					success : function(data){
+						$('#nom').val('');
+						$('#prenom').val('');
+						$('#email').val('');
+						$('#societe').val('');
+						$('#message').val('');
+						alert('Merci, votre email a bien été envoyé. Nous vous répondrons dans les plus brefs délais.');
+					},
+					error : function(){
+						alert('Désolé, une erreur est survenue, veuillez contacter l\'IUT de Troyes.');
+					}
+				});
+			}
+			return false;
+		}
 	</script>
 </head>
 
@@ -99,12 +131,12 @@
 
 	<section id='contact'>
 		<article>
-			<form>
-				<input type="text" placeholder="Nom" name="nom" value="">
-				<input type="text" placeholder="Prenom" name="prenom" value="">
-				<input type="text" placeholder="Societe" name="societe" value="">
-				<input type="text" placeholder="Mail" name="mail" value="">
-				<textarea placeholder="Message" name="message" value=""></textarea>
+			<form onsubmit='return sendMail()'>
+				<input type="text" placeholder="Nom" id='nom' name="nom" value="">
+				<input type="text" placeholder="Prenom" id='prenom' name="prenom" value="">
+				<input type="text" placeholder="Societe" id='societe' name="societe" value="">
+				<input type="email" placeholder="Mail" id='email' name="mail" value="">
+				<textarea placeholder="Message" id='message' name="message" value=""></textarea>
 				<input type="submit" name="name" value="Envoyer">
 			</form>
 			<div>
