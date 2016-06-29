@@ -1,4 +1,4 @@
-#menu{
+.menu{
 	height: 100px;
 	background-color: $gris;
 	text-transform: uppercase;
@@ -64,7 +64,7 @@
 	}
 }
 
-#phoneMenu{
+.phoneMenu{
 	display: none;
 	li{
 		text-align: center;

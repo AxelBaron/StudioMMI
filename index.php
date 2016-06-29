@@ -20,7 +20,7 @@
 		<div class="triangle">
 		</div>
 	</section>
-	<section id="menu">
+	<section class="menu">
 		<article class="img">
 			<img src="img/logo-vert.svg" alt="Logo Studio MMI">
 		</article>
@@ -35,7 +35,7 @@
 			<div id="hamburger" onclick="menu()"><img src='img/hamburger.png'</div>
 		</article>
 	</section>
-	<section id='phoneMenu'>
+	<section class='phoneMenu'>
 		<article>
 			<nav>
 				<ul>
