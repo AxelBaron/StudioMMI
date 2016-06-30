@@ -87,7 +87,7 @@
 				</div>
 			</div>
 			<p class="btn">
-            <button type="button" name="button"><a href="materiel.php">Voir notre matériel</a></button>
+            <button type="button" name="button"><a href="materiel-detail.php">Voir notre matériel</a></button>
 			</p>
 		</article>
 	</section>
